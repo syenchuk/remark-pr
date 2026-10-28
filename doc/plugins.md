@@ -53,6 +53,8 @@ The list of plugins:
   compatible)
 * 🟢 [`remark-api`](https://github.com/wooorm/remark-api)
   — generate an API section
+* 🟢 [`remark-arrow`](https://www.npmjs.com/package/remark-arrow)
+  — replace ASCII arrows with Unicode arrows
 * ⚠️ [`remark-attr`](https://github.com/arobase-che/remark-attr)
   — new syntax to add attributes to markdown
 * 🟢 [`remark-behead`](https://github.com/mrzmmr/remark-behead)
@@ -128,7 +130,7 @@ The list of plugins:
 * 🟢 [`remark-directive-sugar`](https://github.com/lin-stephanie/remark-directive-sugar)
   — predefined directives for customizable badges, links, video embeds, and more
 * 🟢 [`remark-docx`](https://github.com/inokawa/remark-docx)
-  — compile markdown to docx (WIP)
+  — compile markdown to docx
 * 🟢 [`@m2d/remark-docx`](https://github.com/md2docx/remark-docx)
   — compile markdown to docx with support for GFM, tables, html, and more.
 * 🟢 [`remark-dropcap`](https://github.com/brev/remark-dropcap)
@@ -208,10 +210,14 @@ The list of plugins:
   — add an improved image syntax
 * 🟢 [`remark-img-links`](https://github.com/Pondorasti/remark-img-links)
   — prefix relative image paths with an absolute URL
+* 🟢 [`@it-service-npm/remark-include`](https://github.com/IT-Service-NPM/remark-include)
+  — add `::include{file=path.md}` statements to compose markdown files together
 * 🟢 [`remark-inline-links`](https://github.com/remarkjs/remark-inline-links)
   — change references and definitions to links and images
 * 🟢 [`remark-ins`](https://github.com/ipikuka/remark-ins)
   — add ins element for inserted texts opposite to deleted texts
+* 🟢 [`remark-insert-headings`](https://github.com/tgreyuk/remark-insert-headings)
+  — insert headings if they are not already present
 * 🟢 [`remark-join-cjk-lines`](https://github.com/purefun/remark-join-cjk-lines)
   — remove extra space between CJK Characters.
 * ⚠️ [`remark-kbd`](https://github.com/zestedesavoir/zmarkdown/tree/HEAD/packages/remark-kbd#readme)
@@ -259,6 +265,9 @@ The list of plugins:
 * ⚠️ [`remark-ping`](https://github.com/zestedesavoir/zmarkdown/tree/HEAD/packages/remark-ping#readme)
   — new syntax for mentions w/ configurable existence check (new node
   type, rehype compatible)
+* 🟢 [`remark-plugin-autonbsp`](https://github.com/denisinvader/remark-plugin-autonbsp)
+  —  replace whitespace with non-breaking spaces
+  to avoid hanging articles, prepositions and digits
 * 🟢 [`remark-prepend-url`](https://github.com/alxjpzmn/remark-prepend-url)
   —  prepend an absolute url to relative links
 * 🟢 [`remark-prettier`](https://github.com/remcohaszing/remark-prettier)
